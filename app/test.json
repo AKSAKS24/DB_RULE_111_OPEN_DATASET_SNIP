@@ -1,0 +1,9 @@
+{
+    "pgm_name": "ZTEST_RULE111_COMBINED",
+    "inc_name": "ZTEST_RULE111_COMB_INC",
+    "type": "PROG",
+    "name": "MAIN_BLOCK",
+    "start_line": 5,
+    "end_line": 200,
+    "code": "DATA lv_file TYPE string.\nDATA lv_file2 TYPE string.\nDATA lv_file3 TYPE string.\nDATA lv_file4 TYPE string.\nOPEN DATASET lv_file FOR OUTPUT.\nOPEN DATASET lv_file2 FOR OUTPUT IN TEXT MODE.\nOPEN DATASET lv_file3 FOR OUTPUT IN TEXT MODE ENCODING UTF-8.\nOPEN DATASET lv_file4 FOR INPUT IN BINARY MODE.\n"
+}
